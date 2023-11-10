@@ -1,4 +1,4 @@
 # Sniff
 Web Dev
 
-Playing around with landing page
+Learning how to use Git and GitHub
