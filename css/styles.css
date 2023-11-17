@@ -1,7 +1,7 @@
 * {
   font-family: Helvetica, sans-serif;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 14px;
   color: #212427;
 }
 
@@ -16,8 +16,7 @@
   flex: 1;
   display: flex;
   /* border: 2px solid black; */
-  /* padding: 4px; */
-  gap: 20px;
+  gap: 40px;
   height: 100%;
   align-items: center;
   background-color: lightblue;
@@ -30,10 +29,12 @@
 .home-button {
   flex: 0.5;
   display: flex;
-  /* border: 1px solid red; */
+  border: 1px solid red;
+  border-radius: 8px;
   align-content: center;
   justify-content: center;
   background-color: whitesmoke;
+  padding: 10px;
 }
 
 .home-button > .icons {
@@ -47,6 +48,7 @@
   border-radius: 8px;
   align-items: center;
   background-color: whitesmoke;
+  padding: 10px 6px;
 }
 
 .search-bar > .icons {
@@ -63,7 +65,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 .menu > div {
@@ -72,6 +74,7 @@
   border-radius: 8px;
   background-color: whitesmoke;
   text-align: center;
+  padding: 10px;
 }
 
 .temp-cover-container {
